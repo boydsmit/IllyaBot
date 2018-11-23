@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Boyd Smit\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Boyd Smit\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Boyd Smit\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_IllyaBot.-527207056.00" t="ExcludeRecursive" />
+    <e p="D:\IllyaBot\IllyaBot\IllyaBot" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="CommandHandler.cs" t="Include" />
+      <e p="IllyaBot.csproj" t="IncludeRecursive" />
+      <e p="IllyaBot.sln" t="IncludeFlat" />
+      <e p="Key.cs" t="Include" />
+      <e p="Modules" t="Include">
+        <e p="Commands" t="Include">
+          <e p="Administration" t="Include">
+            <e p="Ban.cs" t="Include" />
+            <e p="Kick.cs" t="Include" />
+            <e p="Mute.cs" t="Include" />
+            <e p="Unban.cs" t="Include" />
+          </e>
+          <e p="Gambling" t="Include">
+            <e p="CoinFlip.cs" t="Include" />
+            <e p="Dice.cs" t="Include" />
+          </e>
+          <e p="Media" t="Include">
+            <e p="Giphy.cs" t="Include" />
+            <e p="Hug.cs" t="Include" />
+            <e p="Kiss.cs" t="Include" />
+            <e p="Pat.cs" t="Include" />
+            <e p="Slap.cs" t="Include" />
+          </e>
+          <e p="Text" t="Include">
+            <e p="Copy.cs" t="Include" />
+            <e p="Info" t="Include">
+              <e p="About.cs" t="Include" />
+              <e p="Help.cs" t="Include" />
+              <e p="Invite.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Commands.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
