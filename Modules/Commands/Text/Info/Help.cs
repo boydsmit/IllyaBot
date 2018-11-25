@@ -71,7 +71,7 @@ namespace IllyaBot.Modules.Commands.Text
             (
                 "NSFW",
                 "```css" + Environment.NewLine +
-                "t#gelbooru    [tag]"
+                "t#gelbooru    [tag]```"
             );
             builder.WithFooter("Send command using t#<command>     Example: t#invite");
             builder.WithColor(Color.Purple);
