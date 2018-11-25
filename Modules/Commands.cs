@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Authentication.ExtendedProtection;
 using System.Threading.Tasks;
 using Discord.Commands;
 using Discord.WebSocket;
@@ -6,6 +7,7 @@ using IllyaBot.Modules.Commands.Media;
 using IllyaBot.Modules.Commands.Text;
 using IllyaBot.Modules.Commands.Gambling;
 using IllyaBot.Modules.Commands.Administration;
+using IllyaBot.Modules.Commands.Media.NSFW;
 
 namespace IllyaBot.Modules
 {
@@ -131,6 +133,22 @@ namespace IllyaBot.Modules
         {
             Mute mute = new Mute(Context, mention);
             await mute.MuteS();
+        }
+        
+        [Command("Gelbooru")]
+        [Summary("Mutes the specified user")]
+        public async Task Gelbooru(params string[] param)
+        {
+            if (param.Length != 0)
+            {
+                Gelbooru gelbooru = new Gelbooru(Context, param);
+                await gelbooru.GelbooruS();
+            }
+            else
+            {
+                await Context.Channel.SendMessageAsync("Please specify a tag!");
+            }
+
         }
     }
 }

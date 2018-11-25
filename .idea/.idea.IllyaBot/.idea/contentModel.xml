@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Boyd Smit\.Rider2018.2\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\Boyd Smit\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Boyd Smit\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_IllyaBot.-527207056.00" t="ExcludeRecursive" />
-    <e p="D:\IllyaBot\IllyaBot\IllyaBot" t="IncludeRecursive">
+    <e p="C:\Users\Boyd Smit\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_IllyaBot.1665579376.00" t="ExcludeRecursive" />
+    <e p="D:\IllyaBot" t="IncludeRecursive">
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="CommandHandler.cs" t="Include" />
@@ -27,6 +25,9 @@
             <e p="Giphy.cs" t="Include" />
             <e p="Hug.cs" t="Include" />
             <e p="Kiss.cs" t="Include" />
+            <e p="NSFW" t="Include">
+              <e p="Gelbooru.cs" t="Include" />
+            </e>
             <e p="Pat.cs" t="Include" />
             <e p="Slap.cs" t="Include" />
           </e>
