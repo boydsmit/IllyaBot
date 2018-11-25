@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Runtime.InteropServices;
 using Discord.Commands;
 using System.Threading.Tasks;
 using System.Xml;
-using Discord.Commands;
-using Discord.WebSocket;
 
 namespace IllyaBot.Modules.Commands.Media.NSFW
 {

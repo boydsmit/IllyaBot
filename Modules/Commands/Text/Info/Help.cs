@@ -66,6 +66,13 @@ namespace IllyaBot.Modules.Commands.Text
                 "t#ban         [user]" + Environment.NewLine +
                 "t#unban       [UserID]```"
              );
+            //NSFWE field
+            builder.AddInlineField
+            (
+                "NSFW",
+                "```css" + Environment.NewLine +
+                "t#gelbooru    [tag]"
+            );
             builder.WithFooter("Send command using t#<command>     Example: t#invite");
             builder.WithColor(Color.Purple);
             await this._context.Channel.SendMessageAsync(" ", false, builder);

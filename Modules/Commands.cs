@@ -1,13 +1,11 @@
-﻿using System;
-using System.Security.Authentication.ExtendedProtection;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Discord.Commands;
 using Discord.WebSocket;
-using IllyaBot.Modules.Commands.Media;
-using IllyaBot.Modules.Commands.Text;
-using IllyaBot.Modules.Commands.Gambling;
 using IllyaBot.Modules.Commands.Administration;
+using IllyaBot.Modules.Commands.Gambling;
+using IllyaBot.Modules.Commands.Media;
 using IllyaBot.Modules.Commands.Media.NSFW;
+using IllyaBot.Modules.Commands.Text;
 
 namespace IllyaBot.Modules
 {

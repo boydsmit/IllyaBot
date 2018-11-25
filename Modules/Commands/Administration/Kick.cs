@@ -1,13 +1,5 @@
-﻿using System;
-using System.Diagnostics.Contracts;
-using System.Net.Mime;
-using System.Net.WebSockets;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Threading.Tasks;
-using Discord;
+﻿using System.Threading.Tasks;
 using Discord.Commands;
-using Discord.Rest;
 using Discord.WebSocket;
 
 namespace IllyaBot.Modules.Commands.Administration

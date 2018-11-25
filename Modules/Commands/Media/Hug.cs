@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Discord.Commands;
-using GiphyDotNet.Model.Parameters;
-using GiphyDotNet.Manager;
 using Discord;
 
 namespace IllyaBot.Modules.Commands.Media
