@@ -24,7 +24,10 @@ namespace IllyaBot.Modules.Commands.Media.NSFW
 
         public async Task GelbooruS()
         {
-            
+            if (_context.Channel.IsNsfw)
+            {
+
+
                 int _randomUrl = _random.Next(0, 100);
 
                 string[] url;
@@ -36,7 +39,12 @@ namespace IllyaBot.Modules.Commands.Media.NSFW
                 string attrval = elemlist[_randomUrl].Attributes["file_url"].Value;
 
                 await _context.Channel.SendMessageAsync(attrval);
-                
+            }
+            else
+            {
+                await _context.Channel.SendMessageAsync("This command can only be used in a NSFW channel!");
+            }
+
         }
 
  
